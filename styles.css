@@ -61,18 +61,57 @@
   .skinny {
     height: 17.5%;
   }
+
+  .very-skinny {
+    height: 11.1%
+  }
+
+  .fivevert {
+    height: 20%;
+  }
+
+  .fivehoriz {
+    width: 20%;
+  }
+
+  .up-and-bottom {
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+  }
+
+  .square {
+    width: 40%;
+  }
   
+  #upper {
+    display: flex;
+    flex-direction: row;
+    height: 55.56%
+  }
+
+  .corner {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+  }
+
+  .upper-strips {
+    width: 66.7%;
+  }
+
+
   .fat {
     height: 30%;
   }
   
   .circle {
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 130px;
+    width: 130px;
     position: relative;
-    left: 85px;
-    top: 50px;
+    left: 20px;
+    top: 85px;
   }
   
   /* Colors/ Feel free to add your own! */
